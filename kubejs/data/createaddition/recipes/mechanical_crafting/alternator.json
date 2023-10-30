@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["  A  ", " ISI ", "ISRSI", " ICI "],
+  "key": {
+    "C": {
+      "item": "immersiveengineering:component_electronic"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "R": {
+      "tag": "forge:rods/iron"
+    },
+    "S": {
+      "item": "immersiveengineering:wirecoil_copper"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "item": "createaddition:alternator"
+  }
+}

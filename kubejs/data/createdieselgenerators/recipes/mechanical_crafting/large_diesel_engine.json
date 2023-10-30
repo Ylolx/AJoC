@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["#F#", "#S#", "MGM", "OBO"],
+  "key": {
+    "#": {
+      "item": "immersiveengineering:ingot_steel"
+    },
+    "F": {
+      "item": "create:fluid_pipe"
+    },
+    "G": {
+      "item": "create:shaft"
+    },
+    "O": {
+      "item": "create:sturdy_sheet"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/brass"
+    },
+    "B": {
+      "item": "create:precision_mechanism"
+    },
+    "M": {
+      "item": "immersiveengineering:component_steel"
+    }
+  },
+  "result": {
+    "item": "createdieselgenerators:large_diesel_engine"
+  }
+}

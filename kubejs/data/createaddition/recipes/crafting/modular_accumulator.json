@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" R ", "CBC", " W "],
+  "key": {
+    "R": {
+      "item": "immersiveengineering:plate_copper"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "C": {
+      "item": "immersiveengineering:component_electronic"
+    },
+    "W": {
+      "item": "immersiveengineering:wirecoil_electrum"
+    }
+  },
+  "result": {
+    "item": "createaddition:modular_accumulator",
+    "count": 1
+  }
+}

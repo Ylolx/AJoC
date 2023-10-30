@@ -1,0 +1,131 @@
+
+[types]
+
+	[types.wood_type]
+
+		[types.wood_type.ars_nouveau]
+			archwood = true
+
+		[types.wood_type.quark]
+			bamboo = true
+			azalea = true
+			ancient = true
+			blossom = true
+
+		[types.wood_type.deeperdarker]
+			echo = true
+
+		[types.wood_type.enlightened_end]
+			indigo = true
+			cerulean = true
+
+		[types.wood_type.upgrade_aquatic]
+			driftwood = true
+			river = true
+
+		[types.wood_type.regions_unexplored]
+			alpha = true
+			baobab = true
+			blackwood = true
+			cypress = true
+			dead = true
+			eucalyptus = true
+			joshua = true
+			larch = true
+			maple = true
+			mauve = true
+			palm = true
+			pine = true
+			redwood = true
+			willow = true
+			cherry = true
+			sculkwood = true
+
+		[types.wood_type.phantasm]
+			pream = true
+			ebony = true
+
+	[types.leaves_type]
+
+		[types.leaves_type.ars_nouveau]
+			blue_archwood = true
+			green_archwood = true
+			purple_archwood = true
+			red_archwood = true
+
+		[types.leaves_type.regions_unexplored]
+			bamboo = true
+			golden_larch = true
+			alpha = true
+			apple_oak = true
+			flowering = true
+			silver_birch = true
+			baobab = true
+			blackwood = true
+			cypress = true
+			dead = true
+			dead_pine = true
+			eucalyptus = true
+			larch = true
+			maple = true
+			red_maple = true
+			orange_maple = true
+			mauve = true
+			palm = true
+			pine = true
+			redwood = true
+			willow = true
+			cherry = true
+			red_cherry = true
+			pink_cherry = true
+			white_cherry = true
+			sculkwood = true
+
+		[types.leaves_type.deeperdarker]
+			echo = true
+
+		[types.leaves_type.upgrade_aquatic]
+			river = true
+
+		[types.leaves_type.quark]
+			ancient = true
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			pink_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+
+		[types.leaves_type.phantasm]
+			pream = true
+
+[entries]
+
+	[entries.wood_type]
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.quark]
+			vertical_planks = true
+			post = true
+			chest = true
+			stripped_post = true
+			ladder = true
+			trapped_chest = true
+			bookshelf = true
+			hollow_log = true
+
+		[entries.wood_type.friendsandfoes]
+			beehive = true
+
+		[entries.wood_type.create]
+			window_pane = true
+			window = true
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
+

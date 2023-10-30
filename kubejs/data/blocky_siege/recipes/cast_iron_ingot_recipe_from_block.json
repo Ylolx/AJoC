@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "blocky_siege:block_of_cast_iron"
+    }
+  ],
+  "result": {
+    "item": "createbigcannons:cast_iron_ingot",
+    "count": 9
+  }
+}

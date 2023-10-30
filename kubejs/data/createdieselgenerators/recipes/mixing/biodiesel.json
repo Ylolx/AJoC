@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "immersiveengineering:plantoil",
+      "amount": 100
+    },
+    {
+      "fluidTag": "forge:ethanol",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "fluid": "immersiveengineering:biodiesel",
+      "amount": 200
+    }
+  ]
+}

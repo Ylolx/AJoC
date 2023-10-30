@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:block/cast_iron"
+    },
+    "1": {
+      "item": "minecraft:blast_furnace"
+    },
+    "2": {
+      "tag": "forge:block/cast_iron"
+    },
+    "3": {
+      "tag": "forge:block/cast_iron"
+    },
+    "4": {
+      "item": "create:precision_mechanism"
+    },
+    "5": {
+      "tag": "forge:block/cast_iron"
+    },
+    "6": {
+      "item": "blocky_siege:charred_planks"
+    },
+    "7": {
+      "item": "minecraft:magma_block"
+    },
+    "8": {
+      "item": "blocky_siege:charred_planks"
+    }
+  },
+  "result": {
+    "item": "blocky_siege:roaster_stand",
+    "count": 1
+  }
+}

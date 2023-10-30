@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:block/cast_iron"
+    },
+    "1": {
+      "item": "blocky_siege:charred_planks"
+    },
+    "2": {
+      "tag": "forge:block/cast_iron"
+    },
+    "3": {
+      "item": "minecraft:gold_block"
+    },
+    "4": {
+      "item": "create:precision_mechanism"
+    },
+    "5": {
+      "item": "minecraft:dispenser"
+    },
+    "6": {
+      "item": "blocky_siege:charred_planks"
+    },
+    "7": {
+      "tag": "forge:block/cast_iron"
+    },
+    "8": {
+      "item": "blocky_siege:charred_planks"
+    }
+  },
+  "result": {
+    "item": "blocky_siege:ballista_stand",
+    "count": 1
+  }
+}

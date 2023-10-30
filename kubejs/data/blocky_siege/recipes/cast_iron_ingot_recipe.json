@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 2,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "blocky_siege:crude_iron_compound"
+  },
+  "result": "createbigcannons:cast_iron_ingot"
+}

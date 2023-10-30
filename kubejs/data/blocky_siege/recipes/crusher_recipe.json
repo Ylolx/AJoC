@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_bricks"
+    },
+    "1": {
+      "item": "minecraft:stone_bricks"
+    },
+    "2": {
+      "item": "minecraft:stone_bricks"
+    },
+    "3": {
+      "item": "create:cogwheel"
+    },
+    "4": {
+      "tag": "forge:block/cast_iron"
+    },
+    "5": {
+      "item": "create:cogwheel"
+    },
+    "6": {
+      "item": "create:cogwheel"
+    },
+    "7": {
+      "tag": "forge:block/cast_iron"
+    },
+    "8": {
+      "item": "create:cogwheel"
+    }
+  },
+  "result": {
+    "item": "blocky_siege:crusher",
+    "count": 1
+  }
+}
