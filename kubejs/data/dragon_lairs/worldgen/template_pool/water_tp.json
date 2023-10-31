@@ -1,0 +1,15 @@
+{
+  "name": "dragon_lairs:water.json",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dragon_lairs:water_dragon_lair",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

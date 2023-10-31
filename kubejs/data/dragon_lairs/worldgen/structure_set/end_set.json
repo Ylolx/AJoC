@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dragon_lairs:end_dragon_lair",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 434701375,
+    "spacing": 100,
+    "separation": 5
+  }
+}
