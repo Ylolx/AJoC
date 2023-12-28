@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Lyxol",
+      "uniqueId": "1aaefa7c-f66b-409a-925f-ea2f0338e2b8"
+    },
+    "time": 1700840625672,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/fVKh8G4z8B"
+    }
+  }
+]

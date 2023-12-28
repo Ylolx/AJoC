@@ -62,12 +62,12 @@
 		work_from_any_side = false
 
 	[redstone.turn_table]
-		enabled = true
+		enabled = false
 		#can rotate entities standing on it?
-		rotate_entities = true
+		rotate_entities = false
 
 	[redstone.pulley_block]
-		enabled = true
+		enabled = false
 		#Chance for a new mineshaft elevator piece to spawn
 		#Range: 0.0 ~ 1.0
 		mineshaft_elevator = 0.02
@@ -166,7 +166,7 @@
 		clean_blacklist = ["minecraft:glazed_terracotta"]
 
 	[functional.flax]
-		enabled = true
+		enabled = false
 
 		[functional.flax.wild_flax]
 			enabled = true

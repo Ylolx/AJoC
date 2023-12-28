@@ -7,6 +7,14 @@ ServerEvents.recipes((event) => {
     event.shapeless(result, ingredients);
   };
 
+  const addSmithingRecipe = (output, to_upgrade, to_use) => {
+    event.smithing(
+      output, // arg 1: output
+      to_upgrade, // arg 2: the item to be upgraded
+      to_use // arg 3: the upgrade item
+    );
+  };
+
   const addIMCrusherRecipe = (energy, input, result, secondaries) => {
     event.custom({
       type: "immersiveengineering:crusher",
@@ -40,7 +48,35 @@ ServerEvents.recipes((event) => {
   };
 
   addShapelessRecipe("minecraft:ender_pearl", "#endermanoverhaul:ender_pearls");
+  addShapelessRecipe("waystones:warp_stone", [
+    "ars_nouveau:source_gem",
+    "minecraft:ender_pearl",
+    "minecraft:ender_pearl",
+  ]);
+  addShapelessRecipe("minecraft:totem_of_undying", [
+    "endrem:magical_eye",
+    "minecraft:gold_block",
+    "spelunkery:obsidian_hammer_and_chisel",
+  ]);
 
+  addShapelessRecipe("unusualend:void_totem", [
+    "endrem:magical_eye",
+    "minecraft:gold_block",
+    "spelunkery:obsidian_hammer_and_chisel",
+    "unusualend:enderling_scrap",
+  ]);
+
+  addShapelessRecipe("friendsandfoes:totem_of_illusion", [
+    "endrem:magical_eye",
+    "ars_nouveau:ghostweave",
+    "spelunkery:obsidian_hammer_and_chisel",
+  ]);
+
+  addShapelessRecipe("friendsandfoes:totem_of_freezing", [
+    "endrem:magical_eye",
+    "minecraft:blue_ice",
+    "spelunkery:obsidian_hammer_and_chisel",
+  ]);
 
   addShapedRecipe(
     "createdieselgenerators:large_diesel_engine",
@@ -55,23 +91,85 @@ ServerEvents.recipes((event) => {
     }
   );
 
-  addShapedRecipe(
-    "origins:orb_of_origin",
-    ["FWB", "WSW", "CWE"],
-    {
-      S: 'minecraft:nether_star',
-      W: 'endermanoverhaul:ancient_pearl',
-      B: 'minecraft:blaze_powder',
-      F: 'minecraft:rotten_flesh',
-      C: 'deeperdarker:warden_carapace',
-      E: 'minecraft:ender_eye',
-    }
-  );
+  addShapedRecipe("origins:orb_of_origin", ["FWB", "WSW", "CWE"], {
+    S: "minecraft:nether_star",
+    W: "endermanoverhaul:ancient_pearl",
+    B: "minecraft:blaze_powder",
+    F: "minecraft:rotten_flesh",
+    C: "deeperdarker:warden_carapace",
+    E: "minecraft:ender_eye",
+  });
 
   addShapedRecipe("immersiveengineering:rockcutter", [" D ", "DSD", " D "], {
     D: "createaddition:diamond_grit",
     S: "immersiveengineering:sawblade",
   });
+
+  addSmithingRecipe(
+    "dungeons_gear:emerald_helmet",
+    "minecraft:iron_helmet",
+    "minecraft:emerald"
+  );
+
+  addSmithingRecipe(
+    "dungeons_gear:emerald_chestplate",
+    "minecraft:iron_chestplate",
+    "minecraft:emerald"
+  );
+
+  addSmithingRecipe(
+    "dungeons_gear:emerald_leggings",
+    "minecraft:iron_leggings",
+    "minecraft:emerald"
+  );
+
+  addSmithingRecipe(
+    "dungeons_gear:emerald_boots",
+    "minecraft:iron_boots",
+    "minecraft:emerald"
+  );
+
+  addSmithingRecipe(
+    "dungeons_gear:opulent_helmet",
+    "dungeons_gear:emerald_helmet",
+    "minecraft:gold_ingot"
+  );
+
+  addSmithingRecipe(
+    "dungeons_gear:opulent_chestplate",
+    "dungeons_gear:emerald_chestplate",
+    "minecraft:gold_ingot"
+  );
+
+  addSmithingRecipe(
+    "dungeons_gear:opulent_leggings",
+    "dungeons_gear:emerald_leggings",
+    "minecraft:gold_ingot"
+  );
+
+  addSmithingRecipe(
+    "dungeons_gear:opulent_boots",
+    "dungeons_gear:emerald_boots",
+    "minecraft:gold_ingot"
+  );
+
+  addSmithingRecipe(
+    "endrem:guardian_eye",
+    "upgrade_aquatic:elder_eye",
+    "endrem:undead_soul"
+  );
+
+  addSmithingRecipe(
+    "dungeons_gear:grave_bane",
+    "dungeons_gear:spear",
+    "endrem:undead_soul"
+  );
+
+  addSmithingRecipe(
+    "dungeons_gear:torment_quiver",
+    "supplementaries:quiver",
+    "endrem:undead_soul"
+  );
 
   addIMCrusherRecipe(
     6000,
@@ -138,10 +236,22 @@ ServerEvents.recipes((event) => {
     ]
   );
 
-  event.stonecutting('createbigcannons:cast_iron_block','blocky_siege:block_of_cast_iron');
-  event.stonecutting('2x blocky_siege:block_of_cast_iron_stairs','blocky_siege:block_of_cast_iron');
-  event.stonecutting('3x blocky_siege:block_of_cast_iron_slab','blocky_siege:block_of_cast_iron');
-  event.stonecutting('blocky_siege:block_of_cast_iron','createbigcannons:cast_iron_block');
+  event.stonecutting(
+    "createbigcannons:cast_iron_block",
+    "blocky_siege:block_of_cast_iron"
+  );
+  event.stonecutting(
+    "2x blocky_siege:block_of_cast_iron_stairs",
+    "blocky_siege:block_of_cast_iron"
+  );
+  event.stonecutting(
+    "3x blocky_siege:block_of_cast_iron_slab",
+    "blocky_siege:block_of_cast_iron"
+  );
+  event.stonecutting(
+    "blocky_siege:block_of_cast_iron",
+    "createbigcannons:cast_iron_block"
+  );
 
   let input_rm_array = [
     "createaddition:zinc_sheet",
@@ -200,10 +310,11 @@ ServerEvents.recipes((event) => {
     "create:golden_sheet",
     "create:copper_sheet",
     "blocky_siege:block_of_cast_iron",
-    'blocky_siege:cast_iron_ingot',
-    'blocky_siege:cast_iron_nugget',
-    'oriacs:diving_helmet',
-    'origins:orb_of_origin'
+    "blocky_siege:cast_iron_ingot",
+    "blocky_siege:cast_iron_nugget",
+    "oriacs:diving_helmet",
+    "origins:orb_of_origin",
+    "endrem:undead_eye",
   ];
   output_rm_array.forEach((element) => {
     event.remove({ output: element });

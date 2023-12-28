@@ -1,0 +1,105 @@
+[
+  {
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "mincount": {
+      "amount": 25,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "alexsmobs:cachalot_whale",
+    "mincount": {
+      "amount": 1,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:nether",
+    "hostile": true,
+    "mincount": {
+      "amount": 25,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_end",
+    "hostile": true,
+    "mincount": {
+      "amount": 25,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "passive": true,
+    "mincount": {
+      "amount": 25,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:nether",
+    "passive": true,
+    "mincount": {
+      "amount": 25,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_end",
+    "passive": true,
+    "mincount": {
+      "amount": 25,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "mutantmonsters",
+    "mincount": {
+      "amount": 3,
+      "mod": "mutantmonsters",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:nether",
+    "mod": "mutantmore",
+    "mincount": {
+      "amount": 3,
+      "mod": "mutantmore",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_end",
+    "mod": "mutantmonsters",
+    "mincount": {
+      "amount": 3,
+      "mod": "mutantmonsters",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_end",
+    "mod": "mutantmore",
+    "mincount": {
+      "amount": 3,
+      "mod": "mutantmore",
+      "perplayer": true
+    },
+    "result": "deny"
+  }
+]

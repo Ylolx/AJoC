@@ -115,7 +115,7 @@
 	"Raw Metal Bricks" = true
 	"More Brick Types" = true
 	"Gold Bars" = true
-	Rope = true
+	Rope = false
 	"Bamboo Backport" = true
 	Grate = true
 	"Variant Bookshelves" = true
