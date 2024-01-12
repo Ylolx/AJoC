@@ -45,6 +45,12 @@
 			pream = true
 			ebony = true
 
+		[types.wood_type.cataclysm]
+			chorus = true
+
+		[types.wood_type.createdieselgenerators]
+			chip_wood = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.ars_nouveau]

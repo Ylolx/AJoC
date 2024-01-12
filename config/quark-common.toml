@@ -115,7 +115,7 @@
 	"Raw Metal Bricks" = true
 	"More Brick Types" = true
 	"Gold Bars" = true
-	Rope = false
+	Rope = true
 	"Bamboo Backport" = true
 	Grate = true
 	"Variant Bookshelves" = true
@@ -202,7 +202,7 @@
 		"Replace Worldgen Chests" = true
 		"Enable Reverting Wooden Chests" = true
 		#Chests to put in structures. It's preferred to use worldgen tags for this. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
-		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:ruined_portal_desert=quark:crimson_chest", "minecraft:ruined_portal_jungle=quark:crimson_chest", "minecraft:ruined_portal_mountain=quark:crimson_chest", "minecraft:ruined_portal_nether=quark:crimson_chest", "minecraft:ruined_portal_ocean=quark:crimson_chest", "minecraft:ruined_portal_swamp=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:end_city=quark:purpur_chest", "minecraft:ocean_ruin_cold=quark:prismarine_chest", "minecraft:ocean_ruin_warm=quark:prismarine_chest", "minecraft:ancient_city=quark:ancient_chest"]
+		"Structure Chests" = []
 
 	[building.japanese_palette]
 		"Enable Paper Blocks" = true

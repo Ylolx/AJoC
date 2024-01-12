@@ -783,3 +783,57 @@
 		"bucolicraces:armor_modifiers/leather" = true
 		"bucolicraces:armor_modifiers/beetle_armor" = true
 
+	[origins."ars_scalaes:arse"]
+		enabled = true
+		"ars_scalaes:source_addict" = true
+		"ars_scalaes:source_addict_2" = true
+		"ars_scalaes:mana_absorber" = true
+
+	[origins."disabled:origin_layers/origin"]
+		enabled = true
+
+	[origins."ars_scalaes:drygmy"]
+		enabled = true
+
+	[origins."ars_scalaes:bookwyrm"]
+		enabled = true
+
+	[origins."ars_scalaes:affinity/fire_affinity"]
+		enabled = true
+
+	[origins."ars_scalaes:class/arsificer"]
+		enabled = true
+		"ars_scalaes:book_inept" = true
+
+	[origins."ars_scalaes:affinity/earth_affinity"]
+		enabled = true
+		"ars_scalaes:flyphase" = true
+		"ars_scalaes:toggle_phase" = true
+
+	[origins."ars_scalaes:affinity/air_affinity"]
+		enabled = true
+
+	[origins."ars_scalaes:whirlis"]
+		enabled = true
+
+	[origins."ars_scalaes:sourcerer"]
+		enabled = true
+		"ars_scalaes:source_loved" = true
+		"ars_scalaes:boost_magic_weak_phys" = true
+		"ars_scalaes:magic_boost" = true
+
+	[origins."ars_scalaes:affinity/abjuration"]
+		enabled = true
+
+	[origins."ars_scalaes:starbuncle"]
+		enabled = true
+
+	[origins."ars_scalaes:affinity/water_affinity"]
+		enabled = true
+
+	[origins."ars_scalaes:wixie"]
+		enabled = true
+
+	[origins."ars_scalaes:affinity/conjuration"]
+		enabled = true
+

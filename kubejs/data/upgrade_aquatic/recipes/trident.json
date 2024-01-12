@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " ##",
+        " /#",
+        "/  "
+    ],
+    "key": {
+        "#": {
+            "item": "upgrade_aquatic:thrasher_tooth"
+        },
+        "/": {
+            "item": "upgrade_aquatic:prismarine_rod"
+        }
+    },
+    "result": {
+		"item": "apotheosis:inert_trident",
+        "count": 1
+	}
+}

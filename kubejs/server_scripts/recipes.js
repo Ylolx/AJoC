@@ -59,13 +59,6 @@ ServerEvents.recipes((event) => {
     "spelunkery:obsidian_hammer_and_chisel",
   ]);
 
-  addShapelessRecipe("unusualend:void_totem", [
-    "endrem:magical_eye",
-    "minecraft:gold_block",
-    "spelunkery:obsidian_hammer_and_chisel",
-    "unusualend:enderling_scrap",
-  ]);
-
   addShapelessRecipe("friendsandfoes:totem_of_illusion", [
     "endrem:magical_eye",
     "ars_nouveau:ghostweave",

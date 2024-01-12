@@ -66,7 +66,7 @@
     "dimension": "minecraft:overworld",
     "mod": "mutantmonsters",
     "mincount": {
-      "amount": 3,
+      "amount": 5,
       "mod": "mutantmonsters",
       "perplayer": true
     },
@@ -76,7 +76,7 @@
     "dimension": "minecraft:nether",
     "mod": "mutantmore",
     "mincount": {
-      "amount": 3,
+      "amount": 5,
       "mod": "mutantmore",
       "perplayer": true
     },
@@ -86,7 +86,7 @@
     "dimension": "minecraft:the_end",
     "mod": "mutantmonsters",
     "mincount": {
-      "amount": 3,
+      "amount": 5,
       "mod": "mutantmonsters",
       "perplayer": true
     },
@@ -96,7 +96,7 @@
     "dimension": "minecraft:the_end",
     "mod": "mutantmore",
     "mincount": {
-      "amount": 3,
+      "amount": 5,
       "mod": "mutantmore",
       "perplayer": true
     },
