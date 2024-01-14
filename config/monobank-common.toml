@@ -21,7 +21,7 @@
 	#Range: > 1
 	ThiefDurationSeconds = 360
 	#Opening, unlocking or breaking player-owned Monobank is considered a crime (same as the npc-owned ones).
-	OpeningPlayerOwnedBankCountsAsTheft = false
+	OpeningPlayerOwnedBankCountsAsTheft = true
 	#Opening or breaking containers (chests, barrels, etc..) is also counts as a crime.
 	#Player is marked as Thief only when container has a LootTable and has not been opened before. (Only on first open)
 	StealingFromContainersIsACrime = true

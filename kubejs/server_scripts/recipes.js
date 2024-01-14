@@ -246,6 +246,17 @@ ServerEvents.recipes((event) => {
     "createbigcannons:cast_iron_block"
   );
 
+  event.stonecutting(
+    "1x galosphere:silver_block",
+    "immersiveengineering:storage_silver"
+  );
+
+  event.stonecutting(
+    "1x immersiveengineering:storage_silver",
+    "galosphere:silver_block"
+    
+  );
+
   let input_rm_array = [
     "createaddition:zinc_sheet",
     "createaddition:gold_wire",
@@ -311,8 +322,5 @@ ServerEvents.recipes((event) => {
   ];
   output_rm_array.forEach((element) => {
     event.remove({ output: element });
-  });
-  event.shaped("1x galosphere:silver_block", ["III", "I I", "III"], {
-    I: "#forge:ingots/silver",
   });
 });
